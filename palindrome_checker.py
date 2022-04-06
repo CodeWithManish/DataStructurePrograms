@@ -1,9 +1,6 @@
 
-from collections import deque
-
-
 def reverse_by_deque(string1):
-    container = deque()
+    container = []
 
     for i in string1:
         container.append(i)
@@ -22,6 +19,3 @@ if __name__ == "__main__":
         print("Palindrome")
     else:
         print("Not Palindrome")
-
-
-
